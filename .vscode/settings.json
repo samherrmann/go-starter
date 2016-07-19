@@ -1,0 +1,23 @@
+{
+    // All files apart from the source code files are 
+    // exluded to keep the file explorer uncluttered.
+    "files.exclude": {        
+        "LICENSE": true,
+        
+        // Development tools
+        ".vscode": true,
+        "**/*.gitignore": true,
+
+        // Windows extensions (scripts and output)
+        "**/*.bat": true,
+        "**/*.exe": true,
+
+        // VCS (Glide)
+        "**/glide.yaml": true,
+        "**/glide.lock": true,
+
+        // Local mongoDB for development
+        "mongodb": true,
+        "**/mongod.conf": true
+    }
+}
